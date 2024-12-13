@@ -10,11 +10,17 @@
 # else:
 #     print("The length of your name is just fine and it is ", namelen)
 
-fd=open('C:\\Users\\HP\\Documents\\PERSONAL\\personal\\CV\\Base CV - Revamped With New Knowledge\\Banking-Ready CVs\\C# Focus\\Kayode_Osagbemi_NET and Angular.pdf',"r")
+# fd=open('C:\\Users\\HP\\Documents\\PERSONAL\\personal\\CV\\Base CV - Revamped With New Knowledge\\Banking-Ready CVs\\C# Focus\\Kayode_Osagbemi_NET and Angular.pdf',"r")
 
-fd.close()
+# fd.close()
 
 x=type(float(3))
 print(x)
+print ("Elements of a List of fruits are shown below ")
 x, y, z = "Orange", "Banana", "Cherry"
 print(x, y, z)
+print("Now we want to start learning some operations on lists")
+thisList=["Amala","Eba", "Agbado"]
+lengthval = len(thisList)
+print(f"There are {lengthval} foods in the list")
+print("The first element in the list is ", thisList[0])
