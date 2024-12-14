@@ -23,4 +23,4 @@ print("Now we want to start learning some operations on lists")
 thisList=["Amala","Eba", "Agbado"]
 lengthval = len(thisList)
 print(f"There are {lengthval} foods in the list")
-print("The first element in the list is ", thisList[0])
+print("The first element in the list is ", thisList[1])
