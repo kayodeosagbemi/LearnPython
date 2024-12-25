@@ -14,7 +14,7 @@
 
 # fd.close()
 
-x=type(float(3))
+x = type(float(3))
 print(x)
 print ("Elements of a List of fruits are shown below ")
 x, y, z = "Orange", "Banana", "Cherry"
