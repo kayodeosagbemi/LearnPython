@@ -20,7 +20,25 @@ print ("Elements of a List of fruits are shown below ")
 x, y, z = "Orange", "Banana", "Cherry"
 print(x, y, z)
 print("Now we want to start learning some operations on lists")
-thisList=["Amala","Eba", "Agbado"]
+thisList=["Amala","Eba", "Agbado", "Cassava", "Potatoes", "Rice", "Cabbages", "Carrot"]
 lengthval = len(thisList)
 print(f"There are {lengthval} foods in the list")
-print("The first element in the list is ", thisList[1])
+print(thisList)
+print("These are the foods from the 3rd food to the last one", thisList[2:])
+# Lets check whether beans exist in the list
+if "beans" in thisList:
+    print("Beans dey this list o")
+else:
+    thisList.append("Beans") 
+    print("Beans no dey this list")
+    print ("After adding Beans to the list, this is the list now: ",  thisList)
+
+tutorial_segment_title = "Now Testing Negative Indices"
+print(tutorial_segment_title)
+print ("*" * len("Now Testing Negative Indices"))
+print ("The last 3 elements of theList are ", thisList[-3:])
+print ("Changing the last 3 elements to Sharwama, burger, akara")
+thisList[-3:] = ["Sharwama", "burger", "akara"]
+print("This is the list after changing", thisList)
+
+tutorial_segment_title=""
